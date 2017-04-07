@@ -1,19 +1,16 @@
 //Test an 8x8x8 LED cube
-// @autor: Alexander Fuchs
-//date: 14.04.2016
-
 
 /*
 *Pinbelegung für die Ansteuerung der Schieberegister
 */
 
-//--- Pin 10 verbinden mit SCK [ST_CP]  ("latch") des 74HC595, Bitmuster in das Register laden
+//--- Pin 10 verbinden mit SCK [ST_CP]  ("latch") des 74HC595
 int latchPin = 10; //von10 auf 13 geändert
 
-//--- Pin 13 verbinden mit RCK [SH_CP] ("clock") des 74HC595, Bitmuster auf den Ausgang
+//--- Pin 13 verbinden mit RCK [SH_CP] ("clock") des 74HC595
 int clockPin = 13;  //von 13 auf 10 geändert
 
-//--- Pin 11 verbinden mit SI ("data") des 74HC595, Bitmuster erzeugen
+//--- Pin 11 verbinden mit SI ("data") des 74HC595
 int dataPin = 11;
  
  
@@ -24,7 +21,7 @@ byte pinVals[8];
  int yc = 0;
  
 void setup(){
-    //layer pins
+    //layer PINs
   for(int i = 2; i < 10; i++)
   {
     pinMode(i, OUTPUT);
@@ -50,10 +47,10 @@ void loop(){
   }
   digitalWrite(latchPin, HIGH);
  
-  //delay erhöhn für langsameren Effekt
+  //delay erhoehn für langsameren Effekt
   delay(500);
  
-  //Set the display bits
+  //Display bit setzen
   bitClear(pinVals[yc], xc);
   xc++;
   if(xc == 8){
@@ -61,7 +58,7 @@ void loop(){
     yc++;
     if(yc == 8){
       yc = 0;
-      //next z layer
+      //naechster z layer
         digitalWrite(zLayer + 2, LOW);
         zLayer++;
         if(zLayer >= 8){
