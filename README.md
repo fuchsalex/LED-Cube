@@ -26,4 +26,4 @@
 MIT
 
 ### Info
-Der Anfertigung eines eigenen LED Cube wurde inspiriert von [ChrisB](http://ledcubeblog.blogspot.co.at/)
+Der Anfertigung eines eigenen LED Cube wurde inspiriert von [ChrisB](http://ledcubeblog.blogspot.co.at/).
