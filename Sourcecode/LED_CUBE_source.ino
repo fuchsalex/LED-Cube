@@ -1,8 +1,8 @@
 	
 
      /***************************************************************************************
-     * Name    : LED CUBE 8x8x8 74HC595
-     * By      : 
+     * Name     : LED CUBE 8x8x8 
+     * Hardware : Arduino Uno Rev3 mit Schieberegister 74HC595
      ****************************************************************************************/
      
     #include <TimerOne.h>
@@ -11,16 +11,16 @@
     #define AXIS_Y 2
     #define AXIS_Z 3
      
-    //--- Pin connected to ST_CP of 74HC595
+    //--- Pin verbinden mit ST_CP des 74HC595
     //--- Gelbe Leitung RCK
     int latchPin = 10;
-    //--- Pin connected to SH_CP of 74HC595
+    //--- Pin verbinden mit SH_CP des 74HC595
     //--- Schwarze Leitung SCK
     int clockPin = 13;
-    //--- Pin connected to DS of 74HC595
+    //--- Pin verbinden mit DS des 74HC595
     //--- Lila Leitung SI
     int dataPin = 11;
-    //--- Used for faster latching
+    //--- Verwendung fuer schnelleres latching
     int latchPinPORTB = latchPin - 8;
     //holds value for all the pins, [x][y][z]
     byte cube[8][8];
@@ -157,7 +157,7 @@
     }
      
     // ==========================================================================================
-    //   TEXT Functions
+    //   TEXT Funktionen
     // ==========================================================================================
     char font_data[128][8] = {
     { 0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00 },    // 0 :
