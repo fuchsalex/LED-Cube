@@ -12,7 +12,7 @@
 :warning: Inhalt in Arbeit...
 
 
-## Installation
+## Fertigung
 
 :warning: Inhalt in Arbeit...
 
@@ -26,4 +26,4 @@
 MIT
 
 ### Info
-Die Inspiration für dieses Projekt war die Anleitung von http://ledcubeblog.blogspot.co.at/
+Der Anfertigung eines eigenen LED Cube wurde inspiriert von [ChrisB](http://ledcubeblog.blogspot.co.at/).
