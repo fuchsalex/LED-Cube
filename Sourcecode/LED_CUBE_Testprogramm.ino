@@ -1,4 +1,4 @@
-//Test an 8x8x8 LED cube
+//Testprogramm fuer Arduino 8x8x8 LED cube
 
 /*
 *Pinbelegung für die Ansteuerung der Schieberegister
