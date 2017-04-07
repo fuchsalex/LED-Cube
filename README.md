@@ -12,9 +12,17 @@
 :warning: Inhalt in Arbeit...
 
 
-## Fertigung
+## Simulation
+Der Schaltungsaufbau inklusive Arduino Uno ist in Proteus simuliert. 
+Die Simulation ist auf 3 Seiten aufgeteilt:
+- [Sheet 1] Platinenaufbau
+- [Sheet 2] Analyse der Steuerleitungen
+- [Sheet 3] Ansteuerung der 512 LEDs
 
-:warning: Inhalt in Arbeit...
+
+[Simulation](https://github.com/fuchsalex/LED-Cube/tree/master/Simulation)
+
+
 
 
 
