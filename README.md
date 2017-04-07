@@ -22,10 +22,12 @@ Die Simulation ist auf 3 Seiten aufgeteilt:
 
 [Simulation](https://github.com/fuchsalex/LED-Cube/tree/master/Simulation)
 
+## Funktionstest
+Um die Funktionalität der einzelnen Leds zu überprüfen wird das [Testprogramm](https://github.com/fuchsalex/LED-Cube/blob/master/Sourcecode/LED_CUBE_Testprogramm.ino) in den Microcontroller geladen.
+Dabei wird jede LED für kurze Dauer beschalten. Sollte hier eine LED nicht leuchten, so liegt ein Fehler in der Platine vor.
 
-
-
-
+## Programmcode
+Ist der Cube auf funktionsfähigkeit geprüft, dann kann der [Programmcode](https://github.com/fuchsalex/LED-Cube/blob/master/Sourcecode/LED_CUBE_source.ino) in den Microcontroller geladen werden.
 
 ### Autor
 ![Alexander Fuchs](https://github.com/fuchsalex)
