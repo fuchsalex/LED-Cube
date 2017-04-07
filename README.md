@@ -16,8 +16,7 @@
 
 :warning: Inhalt in Arbeit...
 
-## Ausführen
-    npm start
+
 
 
 ### Autor
@@ -25,3 +24,6 @@
 
 ### Lizenz
 MIT
+
+### Info
+Die Inspiration für dieses Projekt war die Anleitung von http://ledcubeblog.blogspot.co.at/
