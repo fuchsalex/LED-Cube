@@ -36,4 +36,4 @@ Ist der Cube auf funktionsfähigkeit geprüft, dann kann der [Programmcode](http
 MIT
 
 ### Info
-Der Anfertigung eines eigenen LED Cube wurde inspiriert von [ChrisB](http://ledcubeblog.blogspot.co.at/).
+Die Anfertigung eines eigenen LED Cube wurde inspiriert von [ChrisB](http://ledcubeblog.blogspot.co.at/).
